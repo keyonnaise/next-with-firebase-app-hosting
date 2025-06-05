@@ -8,7 +8,7 @@ runConfig:
   # memoryMiB: 512
 
 # Environment variables and secrets.
-# env:
+env:
   # Configure environment variables.
   # See https://firebase.google.com/docs/app-hosting/configure#user-defined-environment
   # - variable: MESSAGE
@@ -21,3 +21,7 @@ runConfig:
   # See https://firebase.google.com/docs/app-hosting/configure#secret-parameters
   # - variable: MY_SECRET
   #   secret: mySecretRef
+
+  # Secret 설정 예시
+  - variable: NEXT_PUBLIC_MY_SECRET_EXAMPLE
+    secret: MY_SECRET_EXAMPLE
